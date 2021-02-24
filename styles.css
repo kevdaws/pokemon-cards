@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background-color: #272625;
+}
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+img {
+  margin: 1rem;
+}
+
+.navbar img {
+  width: 10%;
+}
+
+.navbar button {
+  background-color: aqua;
+}
