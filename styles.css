@@ -8,16 +8,32 @@ body {
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
+  border-color: yellow;
 }
 
 img {
   margin: 1rem;
 }
 
-.navbar img {
-  width: 10%;
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.navbar button {
-  background-color: aqua;
+.logo img {
+  width: 20%;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.search button {
+  background-color: gray;
+  border-radius: 15px;
+  margin-left: 1rem;
+  padding: 1rem;
 }
