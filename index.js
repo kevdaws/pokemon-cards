@@ -14,6 +14,8 @@ function createAPIURL() {
 
 async function getPokemonCards(api_url) {
 
+  document.getElementById('cards').innerHTML = "";
+  
   const response = await fetch(api_url);
   console.log(response);
   const json = await response.json();
