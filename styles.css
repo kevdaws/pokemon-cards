@@ -23,8 +23,15 @@ img {
   padding: 12px 6px;
   text-decoration: none;
   font-size: 17px;
-  width: 85%;
+  width: 100%;
   text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 47%,
+    rgba(0, 255, 132, 1) 100%
+  );
 }
 
 .searchbar h1 {
@@ -35,13 +42,13 @@ img {
   color: gold;
   padding-left: 10px;
   max-width: 30%;
+  float: left;
 }
 
 .searchbar .input {
   padding: 0.5rem;
   border-color: black;
   background-color: lightgray;
-  float: none;
 }
 
 .searchbar button {
