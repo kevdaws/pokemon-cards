@@ -20,10 +20,11 @@ img {
   float: none;
   display: block;
   color: black;
-  text-align: center;
   padding: 12px 6px;
   text-decoration: none;
   font-size: 17px;
+  width: 85%;
+  text-align: center;
 }
 
 .searchbar h1 {
@@ -33,13 +34,14 @@ img {
     "sans-serif";
   color: gold;
   padding-left: 10px;
+  max-width: 30%;
 }
 
 .searchbar .input {
-  transform: translate(-125px);
   padding: 0.5rem;
   border-color: black;
   background-color: lightgray;
+  float: none;
 }
 
 .searchbar button {
@@ -48,7 +50,6 @@ img {
   border-radius: 15px;
   margin-left: 1rem;
   padding: 0.5rem;
-  transform: translate(-125px);
 }
 
 .searchbar button :hover {
