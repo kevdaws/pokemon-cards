@@ -1,39 +1,60 @@
 body {
   font-family: sans-serif;
   background-color: #272625;
+  margin: 0%;
 }
+
 #cards {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
-  border-color: yellow;
 }
 
 img {
   margin: 1rem;
 }
 
-.logo {
+.searchbar {
+  float: none;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  color: black;
+  text-align: center;
+  padding: 12px 6px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.logo img {
-  width: 20%;
+.searchbar h1 {
+  float: left;
+  margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    "sans-serif";
+  color: gold;
+  padding-left: 10px;
 }
 
-.search {
-  display: flex;
-  justify-content: center;
+.searchbar .input {
+  transform: translate(-125px);
+  padding: 0.5rem;
+  border-color: black;
+  background-color: lightgray;
 }
 
-.search button {
-  background-color: gray;
+.searchbar button {
+  background-color: gold;
+  color: black;
   border-radius: 15px;
   margin-left: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
+  transform: translate(-125px);
+}
+
+.searchbar button :hover {
+  background-color: black;
+}
+
+#cards {
+  padding-top: 20px;
 }
