@@ -27,3 +27,5 @@ async function getPokemonCards(api_url) {
   });
 }
 
+createAPIURL();
+
