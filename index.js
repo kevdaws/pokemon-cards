@@ -5,9 +5,6 @@ button.addEventListener('click', createAPIURL);
 
 var input = document.getElementById('pokemon');
 
-var imgHover = document.getElementById(cards).children;
-imgHover.addEventListener('hover', displayRarity);
-
 function createAPIURL() {
   api_path = "https://api.pokemontcg.io/v1/cards?name="
   api_url = api_path + input.value
@@ -31,11 +28,8 @@ async function getPokemonCards(api_url) {
     rarity.innerHTML = new String(card.rarity);
     //console.log(card.rarity);
     cards.append(image);
-    cards.append(rarity);
   });
 }
-
-
 
 // Load random cards when page loads.
 createAPIURL();
